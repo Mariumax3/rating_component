@@ -1,0 +1,234 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+} 
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color:  #202A44;
+} 
+
+.container {
+  border : 1px solid rgb(5, 9, 22);
+    width: 100vw;
+    height : 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%,0.6);
+    width: 88%;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    max-width: 41rem;
+
+  
+}
+
+
+
+
+.star {
+    background-color: hsla(214, 6%, 21%,0.4);
+    width:4rem;
+    height: 4rem;
+    padding: 1.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+img{
+    width: 1.4rem;
+}
+.title{
+    font-size: 2.4rem;
+    color: white;
+    margin-top: 1.9rem;
+   }
+
+   .text {
+       color: hsl(217, 12%, 63%);
+       font-size: 1.415rem;
+       line-height: 2.2rem;
+       margin-top: 1rem;
+
+   }
+
+   .rating-wrapper{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+
+  
+   }
+
+   .rating-btn{
+       color: hsl(217, 12%, 63%);
+       font-size: 1.3rem;
+       font-weight: 700;
+       background-color: hsla(214, 6%, 21%,0.4);
+       width: 4.1rem;
+       height: 4.1rem;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 2.6rem;
+
+       transform: translateY(10%);
+}
+
+.rating{
+  color: white;
+}
+
+.rating-btn:hover {
+    background-color: orange;
+    cursor: pointer;
+
+}
+
+.active{ 
+    background-color: hsl(217, 12%, 63%);
+
+}
+
+
+.submit-btn {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    padding: 1.3rem;
+    border-radius: 4rem;
+    
+
+    
+}
+    .submition{
+        text-transform: uppercase;
+        color: white;
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+
+    }
+
+    .submit-btn:hover{
+        background-color: white;
+        cursor: pointer;
+
+      
+    }
+    
+
+
+
+    .card-content-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .sora{
+        width: 14.5rem;
+        margin-top: 1rem;
+    }
+
+    .result{
+        background-color: hsla(214, 6%, 21%,0.2);
+        padding: 0.8rem 1.4rem;
+        border-radius: 2rem;
+        margin-top: 2.4rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .num{
+        color: orange;
+        font-size: 1.4rem;
+    }
+    
+    .ty{
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color:#c7cdd3
+    }
+
+       
+    .hide{
+        display: none;
+    }
+    
+   
+
+    @media screen and (min-width: 1440px) {
+        .card{
+            padding: 3.0rem;
+            border-radius: 3rem;
+        }
+        
+    }
+
+    @media screen and (min-width: 1440px) {
+        .star{
+            width: 5.0rem;
+            height: 5.0rem;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        img{
+            width: 1.5rem;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .title{
+            margin-top: 3.4rem;
+            font-size: 2.8rem;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .text{
+            margin-top: 0.9rem;
+            line-height: 2.4rem;
+            font-size: 1.505rem;
+        }
+
+    }
+
+    @media screen and (min-width: 1440px) {
+        .rating-btn{
+            width: 5.1rem;
+            height: 5.1rem;
+            font-size: 1.6rem;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        div{
+            transform: translateY(0);
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .submit-btn{
+            margin-top: 3.2rem;
+        }
+    }
